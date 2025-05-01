@@ -4,21 +4,20 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Professional Coder.", "Full Stack Developer.", "Data Scientist.","Wildlife Enthusiast Capturing Wonders Through My Lens 📸"],
+      words: ["a Frontend Developer.", "a React Developer.", "React + Redux + php + mySql"],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
       delaySpeed: 2000,
     });
   return (
-    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
+    <div className="w-full lgl:w-3/5 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
-        <h4 className=" text-lg font-normal">Hola Amingos 👀🙋‍♂️  </h4>
-        <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">Mihir Chavan</span>
+        <h1 className="text-5xl font-bold text-white">
+          Hi, I'm <span className="text-designColor capitalize">Ahamed Thaha</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
-          a <span>{text}</span>
+          <span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
@@ -26,7 +25,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        "I am a passionate MERN stack developer and machine learning enthusiast. With a strong foundation in web development and a keen eye for data, I create innovative solutions that bridge technology and user experience."
+        "Passionate React Developer 2.5 years specializing in React.js and Redux. Skilled in buildingresponsive and scalable web applications, translating UI/UX designs into high-quality code, and optimizing backend process."
         </p>
       </div>
      {/* Media */}

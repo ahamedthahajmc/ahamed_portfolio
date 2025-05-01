@@ -12,36 +12,36 @@ const ContactLeft = () => {
         alt="contactImg"
       />
       <div className="flex flex-col gap-1">
-        <h3 className="text-3xl font-bold text-white">Mihir Chavan</h3>
+        <h3 className="text-3xl font-bold text-white">Ahamed Thaha</h3>
         <p className="text-lg font-normal text-gray-400">
-          MERN Stack Developer
+          Frontend Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-        I am a passionate MERN stack developer with expertise in building robust and dynamic websites.I thoroughly enjoy the process of creating captivating web experiences that combine seamless functionality with stunning design. 
+        I am a passionate Frontend developer with expertise in building robust and dynamic websites.I thoroughly enjoy the process of creating captivating web experiences that combine seamless functionality with stunning design. 
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+91 secret 🤫</span>
+          Phone: <span className="text-lightText">+91 8438121124</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">mihirc0111@gmail.com</span>
+          Email: <span className="text-lightText">ahamedthahajmc@gmail.com</span>
         </p>
-        <p className="text-base text-gray-400 flex items-center gap-2">
+        {/* <p className="text-base text-gray-400 flex items-center gap-2">
           Github: <span className="text-lightText">https://github.com/mihirc0111</span>
-        </p>
+        </p> */}
       </div>
       <div className="flex flex-col gap-0">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me on</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
+          {/* <span className="bannerIcon">
           <a href="https://github.com/mihirc0111" target="_blank" rel="noopener noreferrer">
             <SiGithub /></a>
-          </span>
+          </span> */}
           <span className="bannerIcon">
-          <a href="mailto:mihirc0111@gmail.com">
+          <a href="mailto:ahamedthahajmc@gmail.com">
             <SiGmail /></a>
           </span>
           <span className="bannerIcon">
-          <a href="https://www.linkedin.com/in/mihir-chavan-643615234/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/ahamed-thaha-6a53a715b" target="_blank" rel="noopener noreferrer">
             <FaLinkedinIn /></a>
           </span>
         </div>

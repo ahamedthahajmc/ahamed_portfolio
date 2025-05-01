@@ -18,7 +18,7 @@ const Footer = () => {
             <SiGmail /></a>
           </span>
           <span className="bannerIcon">
-          <a href="https://www.linkedin.com/in/mihir-chavan-643615234/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/ahamed-thaha-6a53a715b" target="_blank" rel="noopener noreferrer">
             <FaLinkedinIn /></a>
           </span>
         </div>

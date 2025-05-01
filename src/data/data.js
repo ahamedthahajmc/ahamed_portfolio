@@ -3,42 +3,44 @@ import {  FaBrain} from "react-icons/fa";
 import { SiProgress} from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
 import { MdAnalytics } from "react-icons/md";
+import { FaDatabase } from "react-icons/fa";
 
 // Features Data
 export const featuresData = [
   {
     id: 1,
-    title: "Project Management",
-    des: "Want to gain real-life experience of managing a complete software project cycle.",
+    icon: <CgWebsite />,
+    title: "Web Development",
+    des: "Build responsive, user-friendly websites using React.js, HTML, and CSS.",
   },
   {
     id: 2,
     icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "Will learn this soon in near future !",
+    title: "Frontend Development (React & Redux)",
+    des: "Develop scalable UI components with efficient state management.",
   },
   {
     id: 3,
     icon: <SiProgress />,
-    title: "SEO Optimisation",
-    des: "Will learn this soon in near future !",
+    title: "Backend Integration (PHP & MySQL)",
+    des: "Connect frontend apps to PHP-MySQL backends for smooth data handling.",
   },
   {
     id: 4,
     icon: <CgWebsite />,
-    title: "Web Development",
-    des: "Have completed a MERN stack development course from Udemy. Have developed various projects and hosted them too, check them on my github.",
+    title: "Healthcare Software (EHR/RPM)",
+    des: "Create intuitive interfaces for electronic health systems and patient portals.",
   },
   {
     id: 5,
-    icon: <MdAnalytics />,
-    title: "Data Analyst",
-    des: "Learned data extraction,cleaning, pattern identification & web scrapping skills during my internship. ALso, trained the ML models.",
+    icon: <FaDatabase />,
+    title: "Database Optimization",
+    des: "Improve performance by writing optimized and efficient database queries.",
   },
   {
     id: 6,
     icon: <FaBrain />,
-    title: "Machine Learning",
-    des: "Have completed a ML course from Acmegrade(Partner Mood Indigo IITB). Have developed some projects, check them on my github.",
+    title: "UI/UX Implementation",
+    des: "Convert design mockups into clean, accessible, and mobile-friendly interfaces.",
   },
 ];
