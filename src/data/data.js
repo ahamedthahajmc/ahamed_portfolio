@@ -2,7 +2,7 @@ import { AiFillAppstore } from "react-icons/ai";
 import {  FaBrain} from "react-icons/fa";
 import { SiProgress} from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
-import { MdAnalytics } from "react-icons/md";
+// import { MdAnalytics } from "react-icons/md";
 import { FaDatabase } from "react-icons/fa";
 
 // Features Data

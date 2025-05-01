@@ -4,7 +4,7 @@ const ResumeCard = ({ title, subTitle, result, des, heiSize }) => {
   const [dynamicSize, setDynamicSize] = useState("");
   useEffect(() => {
     setDynamicSize("w-full " + heiSize + " group flex");
-  }, []);
+  }, [heiSize]);
   const visibleChk = result ? "":"invisible";
   return (
     <div className={dynamicSize}>
