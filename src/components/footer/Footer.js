@@ -10,7 +10,7 @@ const Footer = () => {
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <a href="https://github.com/mihirc0111" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/ahamedthahajmc" target="_blank" rel="noopener noreferrer">
               <SiGithub /></a>
           </span>
           <span className="bannerIcon">
