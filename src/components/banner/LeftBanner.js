@@ -4,7 +4,7 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["a Frontend Developer.", "a React Developer.", "React + Redux + php + mySql"],
+      words: ["a Full Stack Developer.", "a React Developer.", "React + Redux + php + mySql"],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -25,7 +25,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        "Passionate React Developer 2.5 years specializing in React.js and Redux. Skilled in buildingresponsive and scalable web applications, translating UI/UX designs into high-quality code, and optimizing backend process."
+        "Passionate Full Stack Developer 3 years specializing in React.js and Redux. Skilled in buildingresponsive and scalable web applications, translating UI/UX designs into high-quality code, and optimizing backend process."
         </p>
       </div>
      {/* Media */}

@@ -7,14 +7,14 @@ const Footer = () => {
   return (
     <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col gap-8">
-        <img className="w-32" src={logo} alt="logo" />
+        <img className="w-32 invisible" src={logo} alt="logo" />
         <div className="flex gap-4">
           <span className="bannerIcon">
             <a href="https://github.com/ahamedthahajmc" target="_blank" rel="noopener noreferrer">
               <SiGithub /></a>
           </span>
           <span className="bannerIcon">
-          <a href="mailto:mihirc0111@gmail.com">
+          <a href="mailto:ahamedthahajmc@gmail.com">
             <SiGmail /></a>
           </span>
           <span className="bannerIcon">
