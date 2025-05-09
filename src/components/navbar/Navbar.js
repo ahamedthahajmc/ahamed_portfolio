@@ -45,7 +45,8 @@ const Navbar = () => {
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
-                <img className="w-32" src={logo} alt="logo" />
+                {/* <img className="w-32" src={logo} alt="logo" /> */}
+                <h2 className="w-32">Ahamed Thaha</h2>
                 <p className="text-sm text-gray-400 mt-2">
                 "I am a passionate MERN stack developer and machine learning enthusiast. With a strong foundation in web development and a keen eye for data, I create innovative solutions that bridge technology and user experience."
                 </p>
